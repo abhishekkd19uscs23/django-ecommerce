@@ -1,9 +1,21 @@
+{% load static %}
 <html>
-  <title>My Website</title>
-<body>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>My Website</title>
+    </head>
+ <body>
   <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>  
   <div class="fb-post" 
       data-href="https://www.facebook.com/20531316728/posts/10154009990506729/"
-      data-width="500"></div>
+      data-width="500"></div> 
+    <h1>Welcome to Home website</h1>
+    <img  src="{% static 'images/hello.jpg' %}" >
+</body>
+</html>
 </body>
 </html>
