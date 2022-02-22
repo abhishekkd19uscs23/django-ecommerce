@@ -6,7 +6,7 @@ from . import views
 urlpatterns = [
     path('',views.index),
     path('nowayhome',views.index1)
-    path('',views.index3)
+   
 ]
     
     
