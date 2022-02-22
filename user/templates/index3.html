@@ -1,21 +1,17 @@
 {% load static %}
 <html>
     <head>
-        <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <title>My Website</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
     </head>
  <body>
-  <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>  
-  <div class="fb-post" 
-      data-href="https://www.facebook.com/20531316728/posts/10154009990506729/"
-      data-width="500"></div> 
-    <h1>Welcome to Home website</h1>
-    <img  src="{% static 'images/hello.jpg' %}" >
-</body>
-</html>
+<div class="wrapper">
+    <div class="logo"> <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt=""> </div>
+    <div class="text-center mt-4 name"> Twitter </div>
+    <form class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center"> <span class="far fa-user"></span> <input type="text" name="userName" id="userName" placeholder="Username"> </div>
+        <div class="form-field d-flex align-items-center"> <span class="fas fa-key"></span> <input type="password" name="password" id="pwd" placeholder="Password"> </div> <button class="btn mt-3">Login</button>
+    </form>
+    <div class="text-center fs-6"> <a href="https://django-abhishek.herokuapp.com/">Forget password?</a> or <a href="https://django-abhishek.herokuapp.com/">Sign up</a> </div>
+</div>
 </body>
 </html>
